@@ -4,6 +4,7 @@ class User {
         this.password = password;
     }
     validatePassword() {
+        console.log('worf parent password');
         if (this.password.length > 6) {
             return true;
         }

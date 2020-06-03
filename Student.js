@@ -7,6 +7,7 @@ class Student extends User {
         return this.username + ' ' + this.nickname;
     }
     validatePassword() {
+        super.validatePassword();
         if (this.password.length > 8) {
             return true;
         }
