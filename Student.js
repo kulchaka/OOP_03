@@ -6,4 +6,10 @@ class Student extends User {
     getNameVsNickName() {
         return this.username + ' ' + this.nickname;
     }
+    validatePassword() {
+        if (this.password.length > 8) {
+            return true;
+        }
+        return false;
+    }
 }

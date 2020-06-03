@@ -7,7 +7,7 @@ console.log(person);
 console.log(person.username);
 console.log(person.validatePassword());
 
-const firstStuden = new Student('Rick', '12345', 'Morty');
+const firstStuden = new Student('Rick', '1234567', 'Morty');
 console.log(firstStuden);
 console.log(firstStuden.validatePassword());
 console.log(firstStuden.getNameVsNickName());
